@@ -26,3 +26,12 @@ Virtual Intern at CodSoft:
 
 4. End the program:
    - Return 0 to indicate successful program execution.
+  
+# Task3: Student Grading System:
+1. Struct Definition: A struct named `GradeSystem` is defined to store student information. It has two members, a `name` of type `string` to store the student's name, and a `scores` vector of type `int` to store the student's scores.
+
+2. User Input and Storage: The program prompts the user to enter student names and scores. It uses a loop to allow multiple students' information to be entered. Each student's name and scores are stored in an instance of the `GradeSystem` struct, and this instance is added to a vector called `group_students`.
+
+3. Result Display: After all the student information is entered, the program iterates over the `group_students` vector. For each student, it calculates the average, highest, and lowest scores by iterating over the `scores` vector and using appropriate functions such as `max` and `min`. The results, along with the student's name, are displayed to the user.
+
+4. Program Termination: Once all the student information has been displayed, the program terminates.
