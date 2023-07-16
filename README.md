@@ -9,7 +9,7 @@ Virtual Intern at CodSoft:
 3.Provide feedback to the user if the guess is too high or too low.
 4.Repeat steps 2 and 3 until the guess matches the random number, then display the number of attempts it took the user to guess correctly.
 
-#Task2: Simple Calculator:
+# Task2: Simple Calculator:
 1. User input:
    - Prompt the user to enter two numbers and an operation.
    - Read the input and store them in `value1`, `value2`, and `operation`.
