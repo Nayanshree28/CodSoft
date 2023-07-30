@@ -35,3 +35,19 @@ Virtual Intern at CodSoft:
 3. Result Display: After all the student information is entered, the program iterates over the `group_students` vector. For each student, it calculates the average, highest, and lowest scores by iterating over the `scores` vector and using appropriate functions such as `max` and `min`. The results, along with the student's name, are displayed to the user.
 
 4. Program Termination: Once all the student information has been displayed, the program terminates.
+
+
+# Task4: Word Count
+This C++ code is designed to count the total number of words in a text file. It follows a simple four-step process:
+
+Step 1: Importing necessary libraries
+The required C++ libraries, including `iostream`, `fstream`, `string`, and `sstream`, are imported to handle input/output operations, file handling, and string manipulation.
+
+Step 2: Defining the `countWords` function
+The `countWords` function takes a filename as input, opens the file, and reads its content line by line. It then uses an `istringstream` to parse each line into individual words and increments the word count for each word encountered. The function returns the final word count.
+
+Step 3: Getting the filename from the user
+In the `main` function, the user is prompted to enter the filename of the text file they wish to process. The input is stored in the `givenfile` variable.
+
+Step 4: Counting and displaying the total words
+The `main` function calls the `countWords` function with the provided filename, receives the total word count, and displays it on the console if there are no errors. If the file cannot be opened, an error message is shown, and the program returns -1. Otherwise, it prints the total number of words in the file.
